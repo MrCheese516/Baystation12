@@ -38,6 +38,14 @@
 	req_amount = 3
 	on_floor = 1
 
+/datum/stack_recipe/envelope
+	title = "large envelope"
+	result_type = /obj/item/storage/envelope
+
+/datum/stack_recipe/envelope_small
+	title = "envelope"
+	result_type = /obj/item/storage/envelope/small
+
 /datum/stack_recipe/folder
 	title = "folder"
 	result_type = /obj/item/folder
